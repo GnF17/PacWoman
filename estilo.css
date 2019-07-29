@@ -1,0 +1,112 @@
+body {
+    background-color: #000000;
+    /*background-image: url("../img/pacbackground.jpeg");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#geral {
+    width: 466px;
+    margin: 0 auto;
+}
+
+#tela {
+    margin-top: 13px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+#score {
+    float: left;
+    color: white;
+    border: 1px solid red;
+    background-color: black;
+}
+
+#lvl {
+    float: right;
+    color: white;
+    border: 1px solid red;
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    width: 124px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#logo {
+    margin-right: 20px;
+    margin-left: 90px;
+    float: left;
+}
+
+#botoes {
+    width: 464px;
+    padding-bottom: 13px;
+    padding-top: 8px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+button:disabled {
+    background-color: #DDDDDD;
+    cursor: not-allowed;
+}
+
+address {
+    height: 58px;
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    font-weight: bold;
+    text-align: left;
+}
+
+#alerta {
+    position: absolute;
+    border: 1px solid red;
+    background-color: black;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 130px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#vidas {
+    position: absolute;
+    border: 1px solid red;
+    background-color: black;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 130px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#placarVidas {
+    float: right;
+    color: white;
+    background-color: black;
+}
+
+#atalhos {
+    position: absolute;
+    float: left;
+}
